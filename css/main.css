@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Hurricane&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Parisienne&display=swap");
+* {
+  margin: 0;
+  padding: 0; }
+
+.inicio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  background-size: cover;
+  color: white;
+  /*   padding: 150px; */ }
+
+.navbar-brand {
+  font-family: 'Parisienne';
+  font-weight: 700; }
+
+h1 {
+  font-family: 'Hurricane';
+  font-weight: 700;
+  font-size: 4rem;
+  text-align: center; }
+
+.bienvenidos {
+  animation-name: bienvenidos;
+  animation-duration: 3s;
+  animation-iteration-count: 1; }
+
+@keyframes bienvenidos {
+  0% {
+    transform: translate(30vw); }
+  100% {
+    transform: translateX(0vw); } }
+
+.eyluna {
+  animation-name: eyluna;
+  animation-duration: 3s;
+  animation-iteration-count: 1; }
+
+@keyframes eyluna {
+  0% {
+    transform: translate(-30vw); }
+  100% {
+    transform: translateX(0vw); } }
+
+.oferta {
+  display: flex;
+  justify-content: center; }
+  .oferta .imagen {
+    width: 50%;
+    height: 200px; }
+
+.ArticulosPantalla {
+  padding: 30px; }
+
+.card-articulo {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  align-content: space-around;
+  justify-content: center; }
+  .card-articulo img {
+    width: 50%; }
+
+.carrito {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid #2b417c;
+  border-radius: 0.25rem;
+  align-items: center;
+  font-size: 18px;
+  bottom: 0; }
+
+.pie {
+  display: flex;
+  background-color: black;
+  justify-content: space-evenly;
+  align-items: center; }
+  .pie p {
+    color: white; }
