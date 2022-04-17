@@ -4,5 +4,18 @@
         "precio":500,
         "imagenes" :"../imagenes/remera.jpg",
         "categoria":"remera",
-        "id":1}
+        "id":1},
+    
+        { "nombre": "Remera",
+            "stock": 50,
+            "precio":500,
+            "imagenes" :"../imagenes/remera.jpg",
+            "categoria":"remera",
+            "id":1},
+        { "nombre": "Remera",
+                "stock": 50,
+                "precio":500,
+                "imagenes" :"../imagenes/remera.jpg",
+                "categoria":"remera",
+                "id":1}
 ]
