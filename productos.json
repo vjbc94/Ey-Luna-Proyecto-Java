@@ -2,20 +2,20 @@
     { "nombre": "Remera",
         "stock": 50,
         "precio":500,
-        "imagenes" :"../imagenes/remera.jpg",
+        "imagenes" :"/imagenes/remera.jpg",
         "categoria":"remera",
         "id":1},
     
         { "nombre": "Remera",
             "stock": 50,
             "precio":500,
-            "imagenes" :"../imagenes/remera.jpg",
+            "imagenes" :"/imagenes/remera.jpg",
             "categoria":"remera",
             "id":1},
         { "nombre": "Remera",
                 "stock": 50,
                 "precio":500,
-                "imagenes" :"../imagenes/remera.jpg",
+                "imagenes" :"/imagenes/remera.jpg",
                 "categoria":"remera",
                 "id":1}
 ]
